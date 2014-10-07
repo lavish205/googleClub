@@ -19,8 +19,10 @@
 
 	<link rel="stylesheet" href="css/bootstrap.min.css" />
 	<link rel="stylesheet" href="fontawesome/assets/css/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -33,7 +35,7 @@
 	</script>
 </head>
 <body>
-	<nav class="navbar navbar-default" role="navigation">
+	<nav class="navbar navbar-default" role="navigation" style="width:100% !important;">
 		<div class="container-fluid">
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header">
@@ -61,68 +63,19 @@
 			</div><!-- /.navbar-collapse -->
 		</div><!-- /.container-fluid -->
 	</nav>
+	<div id="logo">
+		<img src="img/logo.jpg" alt="image1" style="width:100%;">
+		<img src="img/loader.jpg" id="loader">
+	</div>
+	
+
 	<div class="container">
-		
-		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-			<!-- Indicators -->
-			<ol class="carousel-indicators">
-				<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-				<li data-target="#carousel-example-generic" data-slide-to="2"></li>
-				<li data-target="#carousel-example-generic" data-slide-to="3"></li>
-				<li data-target="#carousel-example-generic" data-slide-to="4"></li>
-
-			</ol>
-
-			<!-- Wrapper for slides -->
-			<div class="carousel-inner">
-				<div class="item active">
-					<img src="img/img1.jpg" alt="image1" style="width:100%; max-height:400px;">
-					<div class="carousel-caption">
-						<strong >Become a member of the Google Student Club at your College</strong>
-					</div>
-				</div>
-				<div class="item">
-					<img src="img/img2.jpg" alt="image2" style="width:100%; max-height:400px;">
-					<div class="carousel-caption">
-						<strong >Be a part of an Awesome Community</strong>
-					</div>
-				</div>
-				<div class="item">
-					<img src="img/img4.jpg" alt="..." style="width:100%; max-height:400px;">
-					<div class="carousel-caption">
-						<strong >Energize yourself</strong>
-					</div>
-				</div>
-				<div class="item">
-					<img src="img/img5.jpg" alt="image1" style="width:100%; max-height:400px;">
-					<div class="carousel-caption">
-						<strong >Widen your network</strong>
-					</div>
-				</div>
-				<div class="item">
-					<img src="img/img6.jpg" alt="image1" style="width:100%; max-height:400px;">
-					<div class="carousel-caption">
-						<strong >Get an Opportunity to work with Google.</strong>
-					</div>
-				</div>
-				
-				<!-- ... -->
-			</div>
-
-			<!-- Controls -->
-			<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-				<span class="glyphicon glyphicon-chevron-left"></span>
-			</a>
-			<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-				<span class="glyphicon glyphicon-chevron-right"></span>
-			</a>
-		</div>
-		<br />
+		<img src="img/gsc.jpg" alt="image1" style="width:100%;" id="main_img">&nbsp;
+				<br />
 		<div class="row">
 			<div class="col-md-12">
 				<div class="well">
-
+				
 					<p class="text-center">
 
 						"Established in September 2014, Google Club officially acts as a bridge between Google and Arya College of Engineering &amp; I.T. To know more about our Google Club or to become a part of our G-teams, you can visit our <a href="about.html">KeyNotes</a> section or <a href="contact.html">Contact Us</a> section. "<br /> <br />
@@ -154,8 +107,8 @@
 									<i class="fa fa-fw fa-calendar fa-3x"></i>
 								</p>
 								<div class="media-body">
-									<h5 class="media-heading"><b></b></h5>
-									<h6><b>15-16 October 2014</b></h6>
+									<h5 class="media-heading"><b>13-14th October 2014</b></h5>
+									<h6><b>9:00AM Sharp</b></h6>
 								</div>
 							</li>
 							<li class="media">
@@ -164,7 +117,7 @@
 								</p>
 								<div class="media-body">
 									<h5 class="media-heading">Arya College of Engg. &amp; IT.</h5>
-									<h6><b>Main Auditorium</b></h6>
+									<h6><b>MBA Auditorium</b></h6>
 								</div>
 							</li>
 						</ul>
@@ -181,10 +134,46 @@
 			    <div class="modal-content">
 			      <div class="modal-header">
 			        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-			        <h4 class="modal-title" id="myModalLabel">Web Development Workshop</h4>
+			        <h4 align="center" class="modal-title" id="myModalLabel">Webathon -Introduction to Web </h4>
 			      </div>
 			      <div class="modal-body">
-			        Details will be uploded soon.
+			      <h4>Summary:</h4>
+			        <div class="well">
+			        	<p>
+			        		Event is meant to educated students of the vast variety of opportunities that are available on the internet
+			        		with a series of presentation on basic web technologies that thrive the net like: HTML, CSS, JavaScript,
+			        		Front-End Frameworks. This will provide a basic idea to students who are not updated with the latest trends
+			        		and making sure that everyone is on the same platform of understanding for moving ahead into Cloud and
+			        		Android technologies.
+
+			        	</p>
+			        </div>
+			          <h4>Targeted Audience:</h4>
+			            <div class="well">
+			            	<ul>
+			            		<li>Students of 2nd and Pre-Final Year</li>
+			            		<li>Branches: Computer Science &amp; Electronics and Communication</li>
+			            	</ul>
+			            </div>
+			            <h4>Event Agenda:</h4>
+			            <h4 align="center"> <b>13th October</b></h5>
+			            
+			              	<u>09:00 - 10:00</u> :- Inauguration of club + Welcome note<br />
+			              	<u>10:00 - 10:30</u> :- Introduction to Web Development + Working of Web<br />
+			              	<u>10:30 - 11:50</u> :- Structure of Webpages + Basic Tags of HTML<br />
+			              	<u>11:50 - 12:30</u> :- Lunch Break<br />
+			              	<u>12:30 - 13:15</u> :- Hands on Session of HTML Tags<br />
+			              	<u>13:15 - 14:15</u> :- Advance Tags + Attributes of HTML + Hands On<br />
+			              	<u>14:15 - 15:30</u> :- Difference b/w HTML and HTML5 + HTML5 benefits + Hands On<br />
+			              	<u>15:30 - 16:00</u> :- Overview of topics that will be covered next day<br />
+			        	<h4 align="center"> <b>13th October</b></h5>
+			        		<u>10:00 - 10:30</u> :- Recap<br />
+			        		<u>10:30 - 11:50</u> :- Introduction to CSS + classes and ids + CSS selectors<br />
+			        		<u>11:50 - 12:30</u> :- Lunch Break<br />
+			        		<u>12:30 - 13:00</u> :- Hands on Session<br />
+			        		<u>13:00 - 15:00</u> :- Introduction to CSS3 + Difference b/w CSS and CSS3 + Gradients + Animation<br />
+			        		<u>15:00 - 16:00</u> :- Introduction to JavaScript + Hands on session<br /><br />
+			        	<a href="#"><button class="btn btn-success" align="center" style="display:block; margin:auto;">Register</button></a>
 			      </div>
 			      <div class="modal-footer">
 			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -218,7 +207,7 @@
 						<br/>
 						<div class="well text-center">
 							<p>
-								<i class="fa fa-fw fa-calendar"></i> 15-16th October 2014
+								<i class="fa fa-fw fa-calendar"></i> 13-14th October 2014
 								<br/>
 								<small>Webathon</small>
 							</p>
