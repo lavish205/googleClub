@@ -1,8 +1,8 @@
 $('#logo').show();
 $('nav').hide();
 $(window).load(function(){
-	$('#logo').hide();
-	$('nav').show();
+	$('#logo').slideUp(500);
+	$('nav').slideDown();
 	$('#main_img').show();
 });
 $(document).ready(function(){
