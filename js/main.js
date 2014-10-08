@@ -12,14 +12,4 @@ $(document).ready(function(){
 	$('#logo').css('height',height);
 	$('#main_img').hide();
 	$('nav').hide();
-
-
-	// $(window).scroll(function(){
-	// 	var a = $(window).scrollTop();
-	// 	if(a > nav-10)
-	// 	{
-	// 		$('nav').css('position','fixed !important');
-
-	// 	}
-	// });
 });
