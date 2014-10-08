@@ -24,6 +24,7 @@
 nav{
 	position: absolute !important;
 	z-index: 1000;
+	display: none;
 	/*bottom: 0px !important;*/
 
 }
