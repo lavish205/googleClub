@@ -1,6 +1,8 @@
+$('#logo').show();
+$('nav').hide();
 $(window).load(function(){
 	$('#logo').hide();
-	// $('nav').hide();
+	$('nav').show();
 	$('#main_img').show();
 });
 $(document).ready(function(){
@@ -9,7 +11,9 @@ $(document).ready(function(){
 	$('#main_img').css('height',height-40);	
 	$('#logo').css('height',height);
 	$('#main_img').hide();
-	var nav = $('nav').offset().top;
+	$('nav').hide();
+
+
 	// $(window).scroll(function(){
 	// 	var a = $(window).scrollTop();
 	// 	if(a > nav-10)
