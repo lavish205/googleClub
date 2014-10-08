@@ -1,7 +1,6 @@
 #googlelogo {
-	width: 50%;
+	width: 40%;
 	display: block;
-	margin-top:100px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -9,6 +8,7 @@
 	background-color: #FFF;
 	position: absolute;
 	z-index: 99;
+	width:100%;
 }
 #loader{
 	display: block;
@@ -20,6 +20,10 @@
 	-o-animation: load linear 1.5s infinite ;
 	-ms-animation: load linear 1.5s infinite ;
 	animation: load linear 1.5s infinite ;
+}
+.loadanim {
+	position: relative;
+	top:50%;
 }
 nav{
 	position: absolute !important;

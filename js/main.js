@@ -12,4 +12,6 @@ $(document).ready(function(){
 	$('#logo').css('height',height);
 	$('#main_img').hide();
 	$('nav').hide();
+	var k = $('.loadanim').height();
+	$('.loadanim').css('margin-top',-k/2);
 });
