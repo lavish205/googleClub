@@ -1,4 +1,10 @@
-
+#googlelogo {
+	width: 50%;
+	display: block;
+	margin-top:100px;
+	margin-left: auto;
+	margin-right: auto;
+}
 #logo{
 	background-color: #FFF;
 	position: absolute;
