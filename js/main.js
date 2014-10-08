@@ -12,6 +12,7 @@ $(document).ready(function(){
 	$('#main_img').css('height',height-40);	
 	$('#logo').css('height',height);
 	$('#main_img').hide();
+	$('nav').show();
 
 
 
