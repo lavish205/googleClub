@@ -26,7 +26,7 @@
 	top:50%;
 }
 nav{
-	position: absolute !important;
+	position: fixed !important;
 	z-index: 1000;
 	/*bottom: 0px !important;*/
 
@@ -46,5 +46,21 @@ nav{
 	}
 	to {
 		-moz-transform:rotate(360deg);
+	}
+}
+@-o-keyframes load {
+	from {
+		-o-transfrom:rotate(0deg);
+	}
+	to {
+		-o-transform:rotate(360deg);
+	}
+}
+@-ms-keyframes load {
+	from {
+		-ms-transfrom:rotate(0deg);
+	}
+	to {
+		-ms-transform:rotate(360deg);
 	}
 }
