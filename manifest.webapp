@@ -1,0 +1,13 @@
+{
+  "name": "Google Club ACEIT",
+  "description": "Information of Google Student Club established at Arya College of Enginering & I.T., Jaipur. It provides all insights of Club.",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/img/icon_128.png"
+  },
+  "developer": {
+    "name": "Lavish Aggarwal",
+    "url": "http://www.about.me/lavish"
+  },
+  "default_locale": "en"
+}
